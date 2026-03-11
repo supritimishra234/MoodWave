@@ -1,0 +1,182 @@
+body {
+
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    background: #f5f5f5;
+
+}
+
+
+   /*navigation*/
+ /* NEW NAVBAR */
+
+.navbar {
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+padding: 10px 20px;
+
+background: white;
+
+border-radius: 20px 20px 0 0;
+
+box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+}
+
+
+.logo {
+
+font-size: 20px;
+font-weight: bold;
+
+}
+
+
+.search-box input {
+
+padding: 6px 10px;
+
+border-radius: 6px;
+
+border: 1px solid gray;
+
+width: 200px;
+
+}
+
+
+.mode-btn button {
+
+padding: 6px 12px;
+
+border-radius: 6px;
+
+border: none;
+
+cursor: pointer;
+
+}
+
+
+
+
+
+/*hero*/
+
+.hero {
+
+    height: 400px;
+
+    background-image:
+    url("https://picsum.photos/1200/600");
+
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+}
+
+
+.hero-text {
+
+    text-align: center;
+
+}
+
+
+.hero button {
+
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+
+}
+
+
+/*moods*/
+
+.moods {
+
+    padding: 40px;
+    text-align: center;
+
+}
+
+
+.mood-box {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+.card {
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+  /*wallpaper*/
+
+.wallpapers {
+
+    padding: 40px;
+    text-align: center;
+
+}
+
+
+
+.wall-box img {
+
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.wall-box div {
+
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.wall-box button {
+
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+
+}
+.dark {
+
+    background: black;
+    color: white;
+
+}
+
+.dark header {
+
+    background: #222;
+
+}
+
+.dark .card {
+
+    background: #333;
+    color: white;
+
+}
